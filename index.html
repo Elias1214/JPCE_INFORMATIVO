@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | JPCE</title>
+    <link rel="stylesheet" href="estilos_index.css">
+    <link rel="Icon" type="image/jpg" href="img_index/logo_jpce0.png">
+</head>
+
+<body>
+
+    <header class="header">
+        <div class="menu container">
+            <a href="index.html" class="logo"><image src="img_index/logo_jpce2.png" alt="">ㅤJPCE</a>
+            <input type="checkbox" id="menu" />
+            <label for="menu">
+                <image src="img_index/menu.png" class="menu-icono" alt="">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="Pag_2.html">Tren maya</a></li>
+                    <li><a href="pag_3.html">Recorrido</a></li>
+                    <li><a href="Pag_4.html">Lugares Turisticos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="header-content container">
+            <h1>JPCE INFORMATIVO</h1>
+            <p>
+                JPCE INFORMATIVO es el sitio web informativo líder en Juárez, Quintana Roo. Ofrece noticias locales, nacionales e
+                internacionales, contenido multimedia, análisis de expertos y más. Obtenga toda la información que
+                necesita para estar al día.
+            </p>
+        </div>
+    </header>
+    <div class="fecha">
+    <center><h3 class="hora" id="fecha-hora" > 
+        <script>
+            function ActualizarFechaHora(){
+                var fechahora = new Date();
+                var fecha = fechahora.toLocaleDateString();
+                var hora = fechahora.toLocaleTimeString();
+    
+                document.getElementById("fecha-hora").innerHTML = fecha + "  "+ hora;
+                setInterval(ActualizarFechaHora, 1000);
+            }
+    
+            
+            ActualizarFechaHora();
+        </script>
+    </h3>
+</center>
+</div>
+    <section class="noticias">
+        <div class="noticias-content container">
+            <h2>Noticias de todo tipo</h2>
+            <div class="noticias-group">
+                <div class="noticias-1">
+                    <image src="img_index/map_roo.png" alt="">
+                    <h3>Locales</h3>
+                    <p>
+                        Mantente informado sobre los eventos y sucesos más relevantes de tu localidad. Desde noticias
+                        comunitarias hasta eventos culturales y deportivos, nuestro equipo de periodistas te trae la
+                        cobertura más actualizada y precisa de todo lo que sucede en tu área.
+                    </p>
+                </div>
+                <div class="noticias-1">
+                    <image src="img_index/map_mexico.png" alt="">
+                    <h3>Nacionales</h3>
+                    <p>
+                        Explora las noticias más destacadas a nivel nacional. Nuestro equipo de periodistas se esfuerza
+                        por ofrecerte una cobertura completa y objetiva de los temas más importantes que afectan al
+                        país. Te mantenemos al tanto de los acontecimientos que moldean nuestra nación.
+                </div>
+                <div class="noticias-1">
+                    <image src="img_index/map_inter.png" alt="">
+                    <h3>Internacionales</h3>
+                    <p>
+                        Descubre historias que trascienden las fronteras. Nuestro equipo de corresponsales en todo el
+                        mundo te mantiene informado sobre los eventos globales más relevantes. Explora
+                        diferentes perspectivas, y amplía tu conocimiento sobre lo que sucede más allá de nuestras fronteras.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="general">
+        <div class="general-1">
+            <h2>Boletines</h2>
+            <p>
+                Un servicio que permite a los usuarios recibir boletines con información actualizada sobre el contenido
+                del sitio.
+            </p>
+        </div>
+        <div class="general-2"></div>
+    </section>
+    <section class="general">
+        <div class="general-3"></div>
+        <div class="general-1">
+            <h2>Alertas</h2>
+            <p>
+                Un servicio que proporciona a los usuarios notificaciones push sobre nuevos contenidos en el sitio.
+            </p>
+        </div>
+    </section>
+    <footer id="footer" class="footer">
+        <image src="img_index/logo_jpce3.png" alt="" class="simbolo">
+        <div class="social-icons-container">
+            <a href="https://www.facebook.com/profile.php?id=100093095817362&mibextid=ZbWKwL" target="_blank" class="social-icon"></a>
+            <a href="https://www.instagram.com/jpce_informativo/" target="_blank" class="social-icon"></a>
+            <a href="https://wa.link/df3idy" target="_blank" class="social-icon"></a>
+        </div>
+        <div class="footer-content container">
+            <div class="link">
+                <h3>Dirección</h3>
+                <ul>
+                    <li><a href="https://goo.gl/maps/Gut6CfJgCT6rgoUE7" target="_blank">Av. Chichen Itza Supermanzana 1, 77500 Cancún, Q.R.</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Contacto</h3>
+                <ul>
+                    <li><a>gama13hernandez@gmail.com</a></li>
+                    <li><a>lopezhdez663elias@gmail.com</a></li>
+                    <li><a>cocomcristian93@gmail.com</a></li>
+                    <li><a>josepad723@gmail.com</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Teléfonos</h3>
+                <ul>
+                    <li><a>+52 998 428 7040</a></li>
+                    <li><a>+52 998 338 6582</a></li>
+                    <li><a>+52 998 520 0141</a></li>
+                    <li><a>+52 998 186 4788</a></li>
+                </ul>
+            </div>
+            <div class="link">
+                <h3>Grupo de trabajo</h3>
+                <ul>
+                    <li><a>Hernández Puc Jhonatan Gamaliel</a></li>
+                    <li><a>López Hernández Elías</a></li>
+                    <li><a>Cocom Cauich Cristian Alexis</a></li>
+                    <li><a>Pavía Dzul José Ricardo</a></li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+   
+</body>
+</html>

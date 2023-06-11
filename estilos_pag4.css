@@ -1,0 +1,361 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Poppins', sans-serif;
+  }
+
+  .container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.header{
+    background-image: linear-gradient(
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)),
+        url(Img_pag_4/Banertrenmaya.jpg);
+        background-position: center bottom top ;
+        background-repeat: no-repeat;
+        background-size: cover;
+        min-height: 70vh;
+        display: flex;
+        align-items: center;        
+}
+
+.menu{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo{
+   text-decoration: none;
+    color: #fffdfc;
+    font-size: 25px;
+    font-weight: 800;
+    align-items: center;
+    display: flex;
+}
+
+.logo img{
+    height: 50px;
+   
+}
+
+.menu .navbar ul li{
+    list-style: none;
+    position: relative;
+    float: left;
+    
+}
+
+.menu .navbar ul li a{
+   text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+    color: #fffdfc;
+    display: block;
+    font-weight: 600;
+}
+
+.menu .navbar ul li a:hover{
+    color: #45659b;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px; 
+}
+
+.menu label{
+    cursor: pointer;
+    display: none;
+
+    
+}
+
+.header-content{
+  text-align: center;
+  
+}
+
+.header-content h1{
+  font-size: 75px;
+  line-height: 80px;
+  color: #f9fafc;
+  text-transform: uppercase;
+  margin-bottom: 35px;
+}
+
+.header-content p{
+  font-size: 16px;
+  color: #c5c5c5;
+  padding: 0 250px;
+  margin-bottom: 25px;
+}
+
+.infotext{
+  padding: 20px;
+    border-radius: 5px;
+    margin-bottom: 30px;
+    align-items: left;
+    display: inline-block;
+    text-align: justify;
+}
+
+.infotext h1{
+  text-align: left;
+  margin-top: 20px;
+
+}
+ .infotext h2{
+  margin-top: 30px;
+ }
+
+ .infotext p{
+  line-height: 1.5;
+  padding: 10px;
+ }
+
+.listadepalenque{
+    margin-left: 40px;
+    margin-right: 10px;
+
+}
+
+.Estacion1{
+  width: 700px;
+  display: block;
+  height: 400px;
+  border-radius: 7px;
+  margin: 35px; 
+}
+
+.Estacion2{
+  display: block;
+  width: 600px;
+  height: 500px;
+  float: left;
+  border-radius: 5px;
+  margin: 35px;
+  
+}
+.Estacion3{
+display: block;
+width: 600px;
+float: right;
+margin: 30px;
+border-radius: 5px;
+
+
+}
+
+.Estacion4{
+  display: block;
+  width: 700px;
+  height: 400;
+  border-radius: 7px;
+  margin: 30px;
+}
+
+
+.Chichen
+{
+  display: block;
+  float: left;
+  margin-right: 20px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+  border-radius: 7px;
+}
+.Estacion5{
+  display: block;
+  width: 600px;
+  height: 300px;
+  float: right;
+  margin: 30px;
+  border-radius: 7px;
+}
+
+.Estacion52{
+display: block;
+width: 600;
+height: 300;
+margin: 10px;
+border-radius: 6px;
+}
+
+.Estacion6{
+  width: 500px;
+  height: 200px;
+  display: block;
+  float: left;
+  padding-right: 30px;
+  padding-top: 30px;
+  border-radius: 6px;
+}
+.Estacion7{
+  width: 800px;
+  height: 500px;
+  display: block;
+  border-radius: 7px;
+  margin: 10px;
+}
+hr{
+  margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.footer{
+    padding: 25px 0;
+    width: 100%;
+    position: relative;
+    background-color: #0e0e0e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  
+  .footer li,a{
+    text-decoration: none;
+    list-style: none;
+    color:  #c5c5c5;
+  }
+  
+  .simbolo{
+    height:200px;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icons-container, .footer-menu-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 1rem;
+  }
+  
+  .social-icon{
+    height: 50px;
+    width: 50px;
+    border-radius: 50px;
+    border: 1px solid #f2f2f2;
+    background-image: url(Img_pag_4/logo_facebook.png);
+    background-position: center;
+    background-size: 40%;
+    background-repeat: no-repeat;
+    margin: 1rem;
+  }
+  
+  .social-icon:hover{
+    background-color: #121212;
+    filter: invert(1);
+  }
+  
+  .social-icon:nth-of-type(2){
+    background-image: url(Img_pag_4/logo_instagram.png);
+  }
+  
+  .social-icon:nth-of-type(3){
+    background-image: url(Img_pag_4/logo_whatsapp.png);
+  }
+  
+  .social-icon:nth-of-type(4){
+    background-image: url(Img_pag_4/logo_twitter.png);
+  }
+  
+  .footer-content{
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .link h3{
+    font-size: 18px;
+    color: #f9fafc;
+    margin-bottom: 15px;
+    padding: 0 25px;
+  }
+  
+  .link li{
+    font-size: 16px;
+    color: #c5c5c5;
+    display: block;
+    margin-bottom: 15px;
+    padding: 0 25px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width:991px){
+  .menu{
+      padding: 30px;
+  }
+
+  .menu label{
+      display: initial;
+  }
+
+  .menu .navbar{
+      position: absolute;
+      top: 100%;
+      left: 0;
+      right: 0;
+      background-color: #323337;
+      display: none;
+  }
+
+  .menu .navbar ul li{
+      width: 100%;
+  }
+
+  #menu:checked ~ .navbar{
+      display: initial;
+  }
+}
